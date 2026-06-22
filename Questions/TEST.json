@@ -1,0 +1,33 @@
+{
+  "title": "TEST",
+  "description": "Vibes",
+  "author": "oinipok",
+  "difficulty": "kniooijm0o",
+  "timeLimitMinutes": 5,
+  "questions": [
+    {
+      "text": "what is the name of the president of US",
+      "imagePath": null,
+      "options": [
+        "Bola Tinubu",
+        "Alhaji Musa Danladi",
+        "Ekwensu Romansi Mamiwater",
+        "Donald J. Trump"
+      ],
+      "correctIndex": 3,
+      "shuffledOrder": null
+    },
+    {
+      "text": "How many hearts does an Octopus have?",
+      "imagePath": null,
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0,
+      "shuffledOrder": null
+    }
+  ]
+}

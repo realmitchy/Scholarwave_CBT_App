@@ -1,0 +1,160 @@
+{
+  "title": "Computer Networking Basics",
+  "description": "A quiz covering fundamental concepts of computer networks, topologies, cables, and devices",
+  "author": "Khemzie",
+  "difficulty": "medium",
+  "timeLimitMinutes": 10,
+  "questions": [
+    {
+      "text": "Which of the following best explains the primary purpose of computer networking?",
+      "options": [
+        "To increase computer processing speed",
+        "To enable communication and resource sharing between devices",
+        "To protect computers from viruses",
+        "To reduce electricity consumption"
+      ],
+      "correctIndex": 1
+    },
+    {
+     "text": "Identify the organ shown in the image below:",
+     "imagePath": "Images/Screenshot (152).png",
+     "options": [
+       "Lungs",
+       "Skin",
+       "Heart",
+       "Kidney"
+     ],
+     "correctIndex": 0
+    },
+    {
+      "text": "A bank connecting its branches across different states in Nigeria would most likely use a:",
+      "options": [
+        "LAN",
+        "PAN",
+        "MAN",
+        "WAN"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "Which statement correctly distinguishes LAN from WAN?",
+      "options": [
+        "LAN covers larger areas than WAN",
+        "WAN is usually privately owned within one building",
+        "LAN is generally faster and covers smaller areas",
+        "WAN does not use cables"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "In a bus topology, what happens if the backbone cable fails?",
+      "options": [
+        "Only one computer stops working",
+        "The central hub takes over",
+        "The entire network stops functioning",
+        "Data automatically reroutes"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Data collision is more likely to occur in which topology?",
+      "options": [
+        "Mesh",
+        "Ring",
+        "Star",
+        "Bus"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "In a star topology, communication between two computers must pass through the:",
+      "options": [
+        "Backbone cable",
+        "NIC",
+        "Central device",
+        "Server only"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which topology allows data to travel in an orderly sequence, reducing collisions?",
+      "options": [
+        "Bus",
+        "Ring",
+        "Star",
+        "WLAN"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which topology has NO single point of failure?",
+      "options": [
+        "Star",
+        "Bus",
+        "Ring",
+        "Mesh"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "Why is mesh topology rarely used for large networks?",
+      "options": [
+        "It is unreliable",
+        "It does not support internet connection",
+        "It is expensive and complex to maintain",
+        "It is slower than bus topology"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which cable type is MOST resistant to electromagnetic interference?",
+      "options": [
+        "Coaxial cable",
+        "Fiber optic cable",
+        "Twisted pair cable",
+        "USB cable"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "The major advantage of fiber optic cable over coaxial cable is that it:",
+      "options": [
+        "Uses electricity to transmit data",
+        "Is cheaper to install",
+        "Transmits data as light and supports very high speeds",
+        "Is thicker and stronger"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which device forwards data only to the intended recipient instead of broadcasting to all devices?",
+      "options": [
+        "Hub",
+        "Switch",
+        "Repeater",
+        "Modem"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "A Network Interface Card (NIC) is essential because it:",
+      "options": [
+        "Connects different networks together",
+        "Filters unwanted internet content",
+        "Enables a computer to connect to a network",
+        "Stores shared files"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "A Wireless LAN (WLAN) differs from a traditional LAN because it:",
+      "options": [
+        "Covers a larger geographical area",
+        "Uses radio signals instead of physical cables",
+        "Is slower than WAN",
+        "Cannot share printers"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

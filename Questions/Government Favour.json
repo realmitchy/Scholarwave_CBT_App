@@ -1,0 +1,309 @@
+{
+  "title": "Government Objective Questions",
+  "description": "30 multiple-choice questions on government principles, Nigerian political system, institutions, and history",
+  "author": "Khemzie",
+  "difficulty": "medium",
+  "timeLimitMinutes": 20,
+  "questions": [
+    {
+      "text": "Government is best defined as",
+      "options": [
+        "a political party in power",
+        "the machinery through which a state is ruled",
+        "a group of lawmakers",
+        "the military authority of a state"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "The main purpose of government is to",
+      "options": [
+        "make profit",
+        "maintain law and order",
+        "conduct party primaries",
+        "promote only the ruling party"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "The theory of separation of powers was propounded by",
+      "options": [
+        "John Locke",
+        "Thomas Hobbes",
+        "Baron de Montesquieu",
+        "Jean-Jacques Rousseau"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which arm of government makes laws?",
+      "options": [
+        "Executive",
+        "Legislature",
+        "Judiciary",
+        "Civil Service"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "The judiciary is primarily responsible for",
+      "options": [
+        "executing laws",
+        "interpreting laws",
+        "making budgets",
+        "conducting elections"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Nigeria practices a",
+      "options": [
+        "unitary system",
+        "federal system",
+        "confederal system",
+        "monarchical system"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "The Nigerian federal legislature is known as the",
+      "options": [
+        "Federal Parliament",
+        "National Council",
+        "National Assembly",
+        "House of Chiefs"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "The President of Nigeria is elected for a term of",
+      "options": [
+        "3 years",
+        "4 years",
+        "5 years",
+        "6 years"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Nigeria became independent in",
+      "options": [
+        "1954",
+        "1957",
+        "1960",
+        "1963"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Nigeria became a republic in",
+      "options": [
+        "1960",
+        "1963",
+        "1979",
+        "1999"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "The principle of rule of law implies that",
+      "options": [
+        "the executive controls the judiciary",
+        "everyone is equal before the law",
+        "the president cannot be tried",
+        "parliament is supreme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "A constitution that is partly written and partly unwritten is called",
+      "options": [
+        "flexible constitution",
+        "rigid constitution",
+        "unwritten constitution",
+        "federal constitution"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which of the following is a feature of federalism?",
+      "options": [
+        "Concentration of power at the centre",
+        "Division of powers between levels of government",
+        "Abolition of state governments",
+        "Parliamentary supremacy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "The head of the judiciary in Nigeria is the",
+      "options": [
+        "Attorney-General",
+        "Senate President",
+        "Chief Justice",
+        "Speaker"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Fundamental human rights are contained in the",
+      "options": [
+        "Electoral Act",
+        "Constitution",
+        "Cabinet Manual",
+        "Party Manifesto"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "An example of a pressure group in Nigeria is the",
+      "options": [
+        "Independent National Electoral Commission",
+        "National Assembly",
+        "Nigerian Labour Congress",
+        "Supreme Court of Nigeria"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "The body responsible for conducting elections in Nigeria is the",
+      "options": [
+        "Independent National Electoral Commission",
+        "National Population Commission",
+        "Economic Community of West African States",
+        "Nigerian Labour Congress"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "text": "In a parliamentary system, the head of government is the",
+      "options": [
+        "President",
+        "Prime Minister",
+        "Governor",
+        "Speaker"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "The doctrine of sovereignty refers to",
+      "options": [
+        "independence of the judiciary",
+        "supremacy of the constitution",
+        "ultimate authority within a state",
+        "equality of states"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Local governments in Nigeria are created by the",
+      "options": [
+        "President",
+        "Constitution",
+        "National Assembly alone",
+        "State Governor"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "The upper chamber of the Nigerian National Assembly is the",
+      "options": [
+        "House of Representatives",
+        "Senate",
+        "Council of State",
+        "Federal Executive Council"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "The concept of checks and balances is meant to",
+      "options": [
+        "strengthen the executive",
+        "prevent abuse of power",
+        "weaken the judiciary",
+        "promote dictatorship"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "A system of government headed by a king or queen is known as",
+      "options": [
+        "democracy",
+        "oligarchy",
+        "monarchy",
+        "aristocracy"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Democracy is best described as government of the",
+      "options": [
+        "elite",
+        "military",
+        "people",
+        "monarch"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Public corporations are established mainly to",
+      "options": [
+        "contest elections",
+        "provide essential services",
+        "interpret laws",
+        "appoint judges"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "The amendment of a rigid constitution requires",
+      "options": [
+        "simple majority",
+        "military approval",
+        "special procedure",
+        "judicial decree"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "The armed forces are under the control of the",
+      "options": [
+        "Chief Justice",
+        "Senate President",
+        "President",
+        "Inspector-General of Police"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "A bicameral legislature means",
+      "options": [
+        "one legislative chamber",
+        "two legislative chambers",
+        "three legislative chambers",
+        "no legislature"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Nigeria returned to civilian rule in",
+      "options": [
+        "1979",
+        "1983",
+        "1993",
+        "1999"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "text": "An international organization Nigeria belongs to is",
+      "options": [
+        "United Nations",
+        "National Assembly",
+        "Independent National Electoral Commission",
+        "Supreme Court of Nigeria"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

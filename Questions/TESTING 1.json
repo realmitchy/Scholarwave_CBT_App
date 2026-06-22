@@ -1,0 +1,40 @@
+{
+  "title": "TESTING 1",
+  "description": "This the first attempt on the revamped quiz app",
+  "author": "Mr mitchy",
+  "difficulty": "medium",
+  "timeLimitMinutes": 2,
+  "questions": [
+    {
+      "text": "In DNA, which nitrogenous base always pairs with Cytosine?",
+      "imagePath": "Screenshot (152).png",
+      "options": [
+        "adenine",
+        "uracil",
+        "guanine",
+        "thymine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "which is the largest organ in the body",
+      "options": [
+        "Lungs",
+        "Skin",
+        "Heart",
+        "Kidney"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "which of these are made from the keratin protein",
+      "options": [
+        "blood",
+        "muscles",
+        "tissues",
+        "fingernails"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

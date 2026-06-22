@@ -1,0 +1,359 @@
+{
+  "title": "jss3 computer exams",
+  "description": "JSS3 Computer Studies Examination covering Internet II, Digital Divide, Digital Literacy, Database, and Spreadsheet",
+  "author": "Mr Mitchy",
+  "difficulty": "medium",
+  "timeLimitMinutes": 30,
+  "questions": [
+    {
+      "text": "Which of the following is NOT an advanced use of the internet?",
+      "options": [
+        "Online banking",
+        "E-commerce",
+        "Watching television with an antenna",
+        "Cloud storage"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "The most popular search engine worldwide is:",
+      "options": [
+        "Bing",
+        "Yahoo",
+        "Google",
+        "DuckDuckGo"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which web browser is developed by Mozilla?",
+      "options": [
+        "Chrome",
+        "Edge",
+        "Firefox",
+        "Safari"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "To search for an exact phrase on Google, you should use:",
+      "options": [
+        "Parentheses",
+        "Quotation marks",
+        "Plus sign (+)",
+        "Minus sign (-)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which of these is mainly used for streaming videos?",
+      "options": [
+        "Google Drive",
+        "YouTube",
+        "Microsoft Word",
+        "Excel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "A web browser is best described as:",
+      "options": [
+        "A program that creates websites",
+        "Software that displays web pages",
+        "A search engine",
+        "An email application"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which platform is commonly used for both social networking and short text/video posts?",
+      "options": [
+        "WhatsApp",
+        "X (formerly Twitter)",
+        "Netflix",
+        "Zoom"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Using search engines effectively helps mainly in:",
+      "options": [
+        "Installing hardware",
+        "Carrying out quick and accurate research",
+        "Formatting documents",
+        "Playing offline games"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "The digital divide refers to:",
+      "options": [
+        "The difference between old and new computers",
+        "Unequal access to digital technologies and the internet",
+        "The cost of mobile phones only",
+        "Slow internet speed in cities"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which group is most likely to experience the digital divide?",
+      "options": [
+        "Urban wealthy students",
+        "Rural low-income families without electricity",
+        "People using smartphones daily",
+        "Office workers in Lagos"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "One major benefit of bridging the digital divide is:",
+      "options": [
+        "Increased inequality",
+        "Equal access to online education",
+        "Higher cost of devices",
+        "Less use of social media"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which of these can help reduce the digital divide?",
+      "options": [
+        "Increasing internet subscription fees",
+        "Providing free or affordable digital training programs",
+        "Removing electricity in rural areas",
+        "Banning smartphones"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Bridging the tech gap can lead to better:",
+      "options": [
+        "National development and economic growth",
+        "Isolation of communities",
+        "Higher poverty levels",
+        "Decreased internet usage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "text": "Digital literacy mainly means:",
+      "options": [
+        "Being able to read books quickly",
+        "Using digital technologies effectively, safely, and responsibly",
+        "Knowing how to repair computers",
+        "Playing video games very well"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which is NOT a component of digital literacy in the 21st century?",
+      "options": [
+        "Online safety and ethics",
+        "Information evaluation (spotting fake news)",
+        "Driving a car",
+        "Using search engines properly"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Protecting personal information online is part of:",
+      "options": [
+        "Hardware maintenance",
+        "Digital ethics and safety",
+        "Graphic design",
+        "Programming"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Being able to create and edit simple documents or presentations shows:",
+      "options": [
+        "Content creation skill",
+        "Only typing speed",
+        "Network configuration",
+        "Database management"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "text": "Critical thinking in digital literacy includes:",
+      "options": [
+        "Accepting every online information as true",
+        "Analyzing and questioning digital content",
+        "Sharing passwords with friends",
+        "Clicking every advertisement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Digital literacy is important today because:",
+      "options": [
+        "It is required for most jobs and education",
+        "It replaces the need to read books",
+        "It makes people antisocial",
+        "It stops people from using phones"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "text": "A database is best described as:",
+      "options": [
+        "A random collection of files",
+        "An organized collection of related data",
+        "A single Microsoft Word document",
+        "A music playlist"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "A single piece of information in a database is called a:",
+      "options": [
+        "Record",
+        "Field",
+        "File",
+        "Table"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "A complete set of information about one person or item is called a:",
+      "options": [
+        "Field",
+        "Record",
+        "Key",
+        "DBMS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "The unique identifier for each record in a table is called:",
+      "options": [
+        "Foreign key",
+        "Primary key",
+        "Secondary key",
+        "Index"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Which of these is a popular example of a DBMS?",
+      "options": [
+        "Microsoft Paint",
+        "Microsoft Access",
+        "Notepad",
+        "Calculator"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "The most common type of database used today is:",
+      "options": [
+        "Hierarchical",
+        "Network",
+        "Relational",
+        "Flat-file only"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "In a student database, all information about one student forms one:",
+      "options": [
+        "Field",
+        "Record",
+        "File",
+        "Column"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "A collection of related records is generally called a:",
+      "options": [
+        "Field",
+        "Table or File",
+        "Cell",
+        "Formula"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Microsoft Excel is primarily used for:",
+      "options": [
+        "Word processing",
+        "Creating and managing spreadsheets",
+        "Browsing the internet",
+        "Editing videos"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "In Excel, rows are identified by:",
+      "options": [
+        "Letters (A, B, C\u2026)",
+        "Numbers (1, 2, 3\u2026)",
+        "Symbols (@, #, $)",
+        "Roman numerals"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "Columns in Excel are labeled with:",
+      "options": [
+        "Numbers",
+        "Letters",
+        "Dates",
+        "Colors"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "text": "The intersection of a row and column is called a:",
+      "options": [
+        "Workbook",
+        "Worksheet",
+        "Cell",
+        "Ribbon"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "The cell address B7 refers to:",
+      "options": [
+        "Column B, Row 7",
+        "Column 7, Row B",
+        "Row 7 only",
+        "Column B only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "text": "Which symbol must every formula in Excel start with?",
+      "options": [
+        "+",
+        "-",
+        "=",
+        "*"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "The function that adds a range of numbers is:",
+      "options": [
+        "AVERAGE",
+        "MAX",
+        "SUM",
+        "COUNT"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "text": "Which function finds the highest value in a range?",
+      "options": [
+        "MIN",
+        "SUM",
+        "AVERAGE",
+        "MAX"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

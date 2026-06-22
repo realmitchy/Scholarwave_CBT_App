@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
-namespace QuizApp.Models
+namespace ScholarwaveCBTApp.Models
 {
     /// <summary>
     /// Represents a quiz set loaded from a JSON file

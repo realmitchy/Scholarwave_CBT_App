@@ -1,10 +1,10 @@
 using System;
 using System.Windows.Forms;
 using DotNetEnv;
-using QuizApp.Forms;
-using QuizApp.UI;
+using ScholarwaveCBTApp.Forms;
+using ScholarwaveCBTApp.UI;
 
-namespace QuizApp
+namespace ScholarwaveCBTApp
 {
     static class Program
     {

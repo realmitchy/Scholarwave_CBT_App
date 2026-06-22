@@ -1,8 +1,8 @@
 using System;
 using System.Windows.Forms;
-using QuizApp;
-using QuizApp.Forms;
-using QuizApp.UI;
+using ScholarwaveCBTApp;
+using ScholarwaveCBTApp.Forms;
+using ScholarwaveCBTApp.UI;
 
 internal static class Program
 {

@@ -4,10 +4,10 @@ using System.Drawing;
 using System.IO;
 using System.Text.Json;
 using System.Windows.Forms;
-using QuizApp.Models;
-using QuizApp.UI;
+using ScholarwaveCBTApp.Models;
+using ScholarwaveCBTApp.UI;
 
-namespace QuizApp.Forms
+namespace ScholarwaveCBTApp.Forms
 {
     /// <summary>
     /// Form for creating and editing quiz sets

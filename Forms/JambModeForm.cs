@@ -5,10 +5,10 @@ using System.IO;
 using System.Linq;
 using System.Text.Json;
 using System.Windows.Forms;
-using QuizApp.Models;
-using QuizApp.Jamb;
+using ScholarwaveCBTApp.Models;
+using ScholarwaveCBTApp.Jamb;
 
-namespace QuizApp.Forms
+namespace ScholarwaveCBTApp.Forms
 {
 	public class JambModeForm : Form
 	{

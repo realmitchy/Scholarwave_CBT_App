@@ -2,9 +2,9 @@ using System;
 using System.Drawing;
 using System.Windows.Forms;
 using MaterialSkin.Controls;
-using QuizApp.UI;
+using ScholarwaveCBTApp.UI;
 
-namespace QuizApp.Forms
+namespace ScholarwaveCBTApp.Forms
 {
 	public class StartModeForm : MaterialAppForm
 	{

@@ -1,9 +1,9 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using QuizApp.Models;
+using ScholarwaveCBTApp.Models;
 
-namespace QuizApp.Forms
+namespace ScholarwaveCBTApp.Forms
 {
     /// <summary>
     /// Student information registration form

@@ -2,9 +2,9 @@ using System;
 using System.Drawing;
 using System.Globalization;
 using System.Windows.Forms;
-using QuizApp.UI;
+using ScholarwaveCBTApp.UI;
 
-namespace QuizApp.Forms
+namespace ScholarwaveCBTApp.Forms
 {
 		/// <summary>
 		/// A small, always-on-top calculator with two-line display:

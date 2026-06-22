@@ -6,7 +6,7 @@ using System.IO;
 using System.Reflection;
 using System.Windows.Forms;
 
-namespace QuizApp.UI
+namespace ScholarwaveCBTApp.UI
 {
     /// <summary>
     /// Material Icons font theme for consistent UI glyphs across the app.

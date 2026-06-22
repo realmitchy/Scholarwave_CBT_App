@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-using QuizApp.Models;
-using QuizApp.Services;
-using QuizApp.UI;
+using ScholarwaveCBTApp.Models;
+using ScholarwaveCBTApp.Services;
+using ScholarwaveCBTApp.UI;
 
-namespace QuizApp.Forms
+namespace ScholarwaveCBTApp.Forms
 {
     /// <summary>
     /// Quiz form for taking exams

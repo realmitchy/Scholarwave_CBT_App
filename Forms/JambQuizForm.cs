@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-using QuizApp.Jamb;
-using QuizApp.Models;
-using QuizApp.UI;
+using ScholarwaveCBTApp.Jamb;
+using ScholarwaveCBTApp.Models;
+using ScholarwaveCBTApp.UI;
 
-namespace QuizApp.Forms
+namespace ScholarwaveCBTApp.Forms
 {
 	public class JambQuizForm : MaterialAppForm
 	{

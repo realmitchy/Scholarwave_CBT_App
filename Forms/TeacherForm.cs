@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-using QuizApp.Models;
-using QuizApp.Services;
+using ScholarwaveCBTApp.Models;
+using ScholarwaveCBTApp.Services;
 
-namespace QuizApp.Forms
+namespace ScholarwaveCBTApp.Forms
 {
     /// <summary>
     /// Teacher dashboard for managing quiz sets

@@ -1,4 +1,4 @@
-namespace QuizApp.UI
+namespace ScholarwaveCBTApp.UI
 {
     /// <summary>
     /// Material Icons codepoint keys (MaterialIcons-Regular.ttf).

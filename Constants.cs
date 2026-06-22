@@ -1,6 +1,6 @@
 using System.Drawing;
 
-namespace QuizApp
+namespace ScholarwaveCBTApp
 {
     /// <summary>
     /// Application-wide constants for configuration, UI, and validation

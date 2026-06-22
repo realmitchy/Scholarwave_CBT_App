@@ -2,9 +2,9 @@ using System;
 using System.IO;
 using System.Windows.Forms;
 using System.Text.Json;
-using QuizApp.Models;
+using ScholarwaveCBTApp.Models;
 
-namespace QuizApp.Services
+namespace ScholarwaveCBTApp.Services
 {
     /// <summary>
     /// Service for centralized file operations

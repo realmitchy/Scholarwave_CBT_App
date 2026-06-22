@@ -4,7 +4,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 
-namespace QuizApp.UI
+namespace ScholarwaveCBTApp.UI
 {
     /// <summary>
     /// Text field with rounded corners and theme-aware border/background.

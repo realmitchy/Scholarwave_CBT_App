@@ -4,9 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Text.Json;
 using System.Windows.Forms;
-using QuizApp.Models;
+using ScholarwaveCBTApp.Models;
 
-namespace QuizApp.Services
+namespace ScholarwaveCBTApp.Services
 {
     /// <summary>
     /// Service for loading quiz sets from JSON files in the Questions folder

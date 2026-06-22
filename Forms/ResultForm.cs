@@ -3,11 +3,11 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using QuizApp.Models;
+using ScholarwaveCBTApp.Models;
 using MaterialSkin.Controls;
-using QuizApp.UI;
+using ScholarwaveCBTApp.UI;
 
-namespace QuizApp.Forms
+namespace ScholarwaveCBTApp.Forms
 {
     public class ResultForm : MaterialAppForm
     {

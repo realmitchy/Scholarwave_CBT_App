@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
-using QuizApp.Models;
-using QuizApp.UI;
+using ScholarwaveCBTApp.Models;
+using ScholarwaveCBTApp.UI;
 
-namespace QuizApp.Forms
+namespace ScholarwaveCBTApp.Forms
 {
     public class ResultReviewForm : MaterialAppForm
     {

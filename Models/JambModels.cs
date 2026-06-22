@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using QuizApp.Models;
+using ScholarwaveCBTApp.Models;
 
-namespace QuizApp.Jamb
+namespace ScholarwaveCBTApp.Jamb
 {
 	public class JambSubjectSession
 	{

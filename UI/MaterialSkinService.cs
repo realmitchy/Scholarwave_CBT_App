@@ -3,7 +3,7 @@ using System.Windows.Forms;
 using MaterialSkin;
 using MaterialSkin.Controls;
 
-namespace QuizApp.UI
+namespace ScholarwaveCBTApp.UI
 {
     /// <summary>
     /// Central MaterialSkin.2 setup and control factories (M3-style purple scheme).

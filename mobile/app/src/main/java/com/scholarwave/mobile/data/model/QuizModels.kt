@@ -31,6 +31,7 @@ data class QuestionDto(
 data class ResultDto(
     val id: String? = null,
     @SerialName("quiz_set_id") val quizSetId: String,
+    @SerialName("student_id") val studentId: String,
     @SerialName("student_name") val studentName: String,
     @SerialName("student_class") val studentClass: String,
     val score: Int,

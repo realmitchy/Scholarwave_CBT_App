@@ -37,6 +37,7 @@ data class ResultEntity(
     @PrimaryKey(autoGenerate = true) val localId: Long = 0,
     val remoteId: String? = null,
     val quizSetId: String,
+    val studentId: String,
     val studentName: String,
     val studentClass: String,
     val score: Int,

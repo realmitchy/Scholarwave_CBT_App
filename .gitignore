@@ -26,3 +26,15 @@ Desktop.ini
 results.csv
 error.log
 dist/
+
+# --- Mobile (Android/Gradle) ---
+mobile/build/
+mobile/app/build/
+mobile/.gradle/
+mobile/.kotlin/
+mobile/*.apk
+mobile/*.aab
+mobile/local.properties
+mobile/.idea/
+mobile/*.iml
+mobile/build_log.txt

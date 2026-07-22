@@ -37,6 +37,7 @@ class AuthViewModel(private val authRepository: AuthRepository) : ViewModel() {
             _uiState.value = AuthUiState.Loading
             try {
                 authRepository.signIn(email, password)
+                authRepository.ensureProfileExists(fullName = "", studentClass = "")
                 _uiState.value = AuthUiState.LoggedIn
             } catch (e: Exception) {
                 _uiState.value = AuthUiState.Error(e.message ?: "Login failed")

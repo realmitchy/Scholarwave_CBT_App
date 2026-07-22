@@ -5,3 +5,5 @@ import kotlinx.serialization.Serializable
 
 @Serializable data object Auth : NavKey
 @Serializable data object Main : NavKey
+@Serializable data class Exam(val quizSetId: String) : NavKey
+@Serializable data object Results : NavKey

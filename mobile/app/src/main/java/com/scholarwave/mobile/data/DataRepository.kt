@@ -21,14 +21,14 @@ class QuizRepository(
     fun observeQuestions(quizSetId: String): Flow<List<QuestionEntity>> =
         questionDao.observeForQuiz(quizSetId)
 
+    suspend fun getQuizSet(quizSetId: String): QuizSetEntity? = quizSetDao.getById(quizSetId)
+
     suspend fun refreshFromCloud() {
         val remoteQuizzes = postgrest["quiz_sets"]
             .select()
             .decodeList<QuizSetDto>()
             .filter { it.isPublished }
-
         quizSetDao.upsertAll(remoteQuizzes.map { it.toEntity() })
-
         for (quiz in remoteQuizzes) {
             val quizId = quiz.id ?: continue
             val remoteQuestions = postgrest["questions"]

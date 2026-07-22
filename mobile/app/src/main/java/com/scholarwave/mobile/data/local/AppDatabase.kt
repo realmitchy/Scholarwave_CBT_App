@@ -136,6 +136,9 @@ interface ResultDao {
 
     @Query("SELECT * FROM results WHERE quizSetId = :quizSetId ORDER BY submittedAtEpochMillis DESC")
     fun observeForQuiz(quizSetId: String): Flow<List<ResultEntity>>
+
+    @Query("SELECT * FROM results WHERE studentId = :studentId ORDER BY submittedAtEpochMillis DESC")
+    fun observeForStudent(studentId: String): Flow<List<ResultEntity>>
 }
 
 @Dao

@@ -19,13 +19,14 @@ class ResultsRepository(
 ) {
     private val postgrest get() = SupabaseHelper.client.postgrest
 
-   suspend fun submitResult(
+    suspend fun submitResult(
         quizSetId: String,
         studentId: String,
         studentName: String,
         studentClass: String,
         score: Int,
-        totalQuestions: Int
+        totalQuestions: Int,
+        studentAnswers: IntArray
     ) {
         resultDao.insert(
             ResultEntity(
@@ -35,6 +36,7 @@ class ResultsRepository(
                 studentClass = studentClass,
                 score = score,
                 totalQuestions = totalQuestions,
+                studentAnswers = studentAnswers,
                 submittedAtEpochMillis = System.currentTimeMillis(),
                 synced = false
             )

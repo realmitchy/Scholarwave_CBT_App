@@ -12,7 +12,10 @@ import com.scholarwave.mobile.data.AuthRepository
 import com.scholarwave.mobile.ui.auth.AuthScreen
 import com.scholarwave.mobile.ui.exam.ExamScreen
 import com.scholarwave.mobile.ui.main.MainScreen
+import com.scholarwave.mobile.ui.mockexam.MockExamListScreen
+import com.scholarwave.mobile.ui.mockexam.MockExamScreen
 import com.scholarwave.mobile.ui.results.ResultsScreen
+import com.scholarwave.mobile.ui.results.ResultDetailScreen
 
 @Composable
 fun MainNavigation() {
@@ -47,6 +50,33 @@ fun MainNavigation() {
                 }
                 entry<Results> {
                     ResultsScreen(
+                        onBack = { backStack.removeLastOrNull() },
+                        onResultClick = { localId, isMock ->
+                            backStack.add(ResultDetail(localId, isMock))
+                        },
+                        modifier = Modifier.safeDrawingPadding().padding(16.dp)
+                    )
+                }
+                entry<ResultDetail> { key ->
+                    ResultDetailScreen(
+                        localId = key.localId,
+                        isMock = key.isMock,
+                        onBack = { backStack.removeLastOrNull() },
+                        modifier = Modifier.safeDrawingPadding().padding(16.dp)
+                    )
+                }
+                // ── Mock Exam entries ────────────────────────────────────────
+                entry<MockExamList> {
+                    MockExamListScreen(
+                        onMockExamClick = { id -> backStack.add(MockExam(id)) },
+                        onBack = { backStack.removeLastOrNull() },
+                        modifier = Modifier.safeDrawingPadding().padding(16.dp)
+                    )
+                }
+                entry<MockExam> { key ->
+                    MockExamScreen(
+                        mockExamId = key.mockExamId,
+                        onFinished = { backStack.removeLastOrNull() },
                         modifier = Modifier.safeDrawingPadding().padding(16.dp)
                     )
                 }

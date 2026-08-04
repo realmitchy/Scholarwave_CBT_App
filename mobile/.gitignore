@@ -16,3 +16,7 @@ local.properties
 
 /.idea/
 crash_log.txt
+*.db
+*.db-journal
+*.db-shm
+*.db-wal

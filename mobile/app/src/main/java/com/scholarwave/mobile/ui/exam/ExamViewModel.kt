@@ -177,7 +177,8 @@ class ExamViewModel(
                 studentName = studentName,
                 studentClass = studentClass,
                 score = score,
-                totalQuestions = state.questions.size
+                totalQuestions = state.questions.size,
+                studentAnswers = state.answers.toIntArray()
             )
             quizProgressDao.delete(quizSetId)
             _uiState.value = ExamUiState.Submitted(score, state.questions.size)

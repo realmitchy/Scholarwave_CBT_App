@@ -37,12 +37,17 @@ class AuthRepository {
         if (userId == null) {
             // Email confirmation is required — no active session yet.
             // The profile row gets created on first successful sign-in instead.
+            // The database trigger will handle the initial profile creation when confirmed.
             return false
         }
 
-        postgrest["profiles"].insert(
-            ProfileDto(id = userId, role = "student", fullName = fullName, studentClass = studentClass)
-        )
+        try {
+            postgrest["profiles"].insert(
+                ProfileDto(id = userId, role = "student", fullName = fullName, studentClass = studentClass)
+            )
+        } catch (e: Exception) {
+            // Ignore if profile already exists (e.g. created by database trigger)
+        }
         return true
     }
 
@@ -55,9 +60,13 @@ class AuthRepository {
         val userId = currentUserId ?: return
         val existing = getMyProfile()
         if (existing == null) {
-            postgrest["profiles"].insert(
-                ProfileDto(id = userId, role = "student", fullName = fullName, studentClass = studentClass)
-            )
+            try {
+                postgrest["profiles"].insert(
+                    ProfileDto(id = userId, role = "student", fullName = fullName, studentClass = studentClass)
+                )
+            } catch (e: Exception) {
+                // Ignore if profile already exists or failed to insert
+            }
         }
     }
 

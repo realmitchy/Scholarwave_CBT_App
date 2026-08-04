@@ -7,3 +7,6 @@ import kotlinx.serialization.Serializable
 @Serializable data object Main : NavKey
 @Serializable data class Exam(val quizSetId: String) : NavKey
 @Serializable data object Results : NavKey
+@Serializable data object MockExamList : NavKey
+@Serializable data class MockExam(val mockExamId: String) : NavKey
+@Serializable data class ResultDetail(val localId: Long, val isMock: Boolean) : NavKey

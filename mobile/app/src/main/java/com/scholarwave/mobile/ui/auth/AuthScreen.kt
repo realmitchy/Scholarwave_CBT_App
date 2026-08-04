@@ -1,9 +1,14 @@
 package com.scholarwave.mobile.ui.auth
 
+import android.content.Context
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Button
+import androidx.compose.material3.Checkbox
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
@@ -12,6 +17,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
@@ -24,14 +30,18 @@ fun AuthScreen(
     onLoggedIn: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
+    val context = LocalContext.current
+    val sharedPrefs = remember { context.getSharedPreferences("auth_prefs", Context.MODE_PRIVATE) }
+
     val viewModel: AuthViewModel = viewModel { AuthViewModel(AuthRepository()) }
     val state by viewModel.uiState.collectAsStateWithLifecycle()
 
     var isSignUpMode by remember { mutableStateOf(false) }
-    var email by remember { mutableStateOf("") }
+    var email by remember { mutableStateOf(sharedPrefs.getString("email", "") ?: "") }
     var password by remember { mutableStateOf("") }
     var fullName by remember { mutableStateOf("") }
     var studentClass by remember { mutableStateOf("") }
+    var rememberMe by remember { mutableStateOf(sharedPrefs.getBoolean("remember_me", false)) }
 
     if (state is AuthUiState.LoggedIn) {
         onLoggedIn()
@@ -50,6 +60,20 @@ fun AuthScreen(
             label = { Text("Password") }, modifier = Modifier.fillMaxWidth().padding(top = 8.dp)
         )
 
+        if (!isSignUpMode) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.padding(top = 8.dp)
+            ) {
+                Checkbox(
+                    checked = rememberMe,
+                    onCheckedChange = { rememberMe = it }
+                )
+                Spacer(Modifier.width(8.dp))
+                Text("Remember me")
+            }
+        }
+
         if (isSignUpMode) {
             OutlinedTextField(
                 value = fullName, onValueChange = { fullName = it },
@@ -63,8 +87,19 @@ fun AuthScreen(
 
         Button(
             onClick = {
-                if (isSignUpMode) viewModel.signUp(email, password, fullName, studentClass)
-                else viewModel.signIn(email, password)
+                if (isSignUpMode) {
+                    viewModel.signUp(email, password, fullName, studentClass)
+                } else {
+                    if (rememberMe) {
+                        sharedPrefs.edit()
+                            .putString("email", email)
+                            .putBoolean("remember_me", true)
+                            .apply()
+                    } else {
+                        sharedPrefs.edit().clear().apply()
+                    }
+                    viewModel.signIn(email, password)
+                }
             },
             modifier = Modifier.fillMaxWidth().padding(top = 16.dp)
         ) {
@@ -82,4 +117,4 @@ fun AuthScreen(
             else -> {}
         }
     }
-}
+}

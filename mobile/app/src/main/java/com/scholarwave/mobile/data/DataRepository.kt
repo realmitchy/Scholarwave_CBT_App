@@ -55,6 +55,7 @@ private fun QuizSetDto.toEntity() = QuizSetEntity(
     description = description,
     timeLimitMinutes = timeLimitMinutes,
     isPublished = isPublished,
+    subjectId = subjectId,
     lastSyncedAt = System.currentTimeMillis()
 )
 
@@ -65,5 +66,8 @@ private fun QuestionDto.toEntity() = QuestionEntity(
     text = text,
     options = options,
     correctIndex = correctIndex,
-    imagePath = imagePath
+    imagePath = imagePath,
+    subjectId = subjectId,
+    examYear = examYear,
+    explanation = explanation
 )
